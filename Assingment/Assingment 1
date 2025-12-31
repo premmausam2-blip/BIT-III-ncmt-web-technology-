@@ -1,0 +1,72 @@
+Short Answers
+1. Define the term “Protocol” in the context of the Internet
+A protocol is a set of standard rules that determine how data is transmitted and received between two or more devices over the Internet. It ensures proper communication between systems.
+
+2. What is the primary difference between a Web Browser and a Search Engine?
+A web browser is a software application used to access and display websites, such as Google Chrome, Mozilla Firefox, or Microsoft Edge.
+A search engine is an online service that helps users find information on the Internet by searching keywords, such as Google or Bing.
+
+3. Define the World Wide Web (WWW)
+The World Wide Web is a collection of interconnected web pages and resources that are accessed through the Internet using a web browser.
+
+4. Distinguish between a static web page and a dynamic web page
+A static web page shows the same content to all users and does not change unless manually updated.
+A dynamic web page can display different content for different users and allows user interaction, such as uploading or modifying data (e.g., YouTube, Facebook).
+
+Long Questions
+1. Explain the client–server architecture of the web with a neat diagram
+Client–server architecture is a model where the client requests services or data from a server, and the server responds accordingly.
+Working process:
+ The user enters a URL in the browser (client).
+ The browser sends a request to the server.
+ The server processes the request.
+ The server sends back the required data (HTML, CSS, images, etc.).
+ The browser displays the web page to the user.
+
+Neat Diagram:
+
++-----------+     Request     +------------+
+|  Client   | --------------> |   Server   |
+| (Browser) |                 | (Web/App)  |
++-----------+ <-------------- +------------+
+               Response
+
+2. Describe the functions of Email, FTP, and VoIP
+
+Email:
+Email is an electronic communication service that allows users to send and receive messages over the Internet. It is widely used for personal and professional communication.
+
+FTP (File Transfer Protocol):
+FTP is a protocol used to upload and download files between computers over the Internet.
+
+VoIP (Voice over Internet Protocol):
+VoIP enables voice communication over the Internet instead of traditional telephone networks, such as video or audio calls.
+
+3. “The Internet is a network of networks.” Explain this statement and describe packet switching
+The Internet is called a “network of networks” because it connects multiple smaller networks such as home networks, office networks, and ISP networks into one global system.
+
+Packet Switching:
+ Data is divided into small units called packets.
+ Each packet contains source and destination information.
+ Packets travel through different paths across the network.
+ Routers select the best route for each packet.
+ At the destination, packets are reassembled to form the original data.
+
+Importance of packet switching:
+ Efficient data transmission
+ Reliable communication
+ Alternative routes are used if one path fails
+
+4. A startup company wants a website with the same content for all users but is advised to use a dynamic website. Do you agree? Justify your answer.
+Yes, I would agree with using a dynamic website. Although static websites are low-cost and easy to maintain, dynamic websites provide better user experience. Different users have different needs and expectations when visiting a website. A dynamic website can present detailed information, categories, images, and interactive features, allowing users to access exactly what they are looking for. This flexibility makes the website more engaging and user-friendly.
+
+5. A browser shows “Server Not Found” for www.google.com
+, but works with its IP address. Diagnose the issue.
+The problem occurs due to a failure in the DNS (Domain Name System). DNS is responsible for converting domain names into IP addresses. When the browser cannot resolve the domain name, it shows a “Server Not Found” error. However, accessing the website using the IP address works because it bypasses DNS resolution.
+
+6. Which network type should a corporation use to share sensitive data with selected suppliers?
+The company should use an Extranet. An extranet is a private network that allows controlled access to specific external users. It ensures data security while enabling authorized suppliers to access sensitive information without exposing it to the public.
+
+
+
+
